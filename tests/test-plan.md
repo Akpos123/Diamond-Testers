@@ -2,29 +2,58 @@
 📘 Initial Test Plan & Strategy Document
 
 1. 🎯 Purpose and Scope
-Define the objectives of testing (e.g., validate functionality, identify defects early).
 
-Outline what’s in-scope and out-of-scope for testing.
+•	Multiple user flows and pages
+•	Form validation and error handling
+•	UI accessibility issues
+•	Boundary testing scenarios
+•	Filtering and sorting functionality
+•	Simulated admin workflows
+•	Responsive design testing
+•	Intentional bugs and inconsistencies
+   validate functionality, identify defects early
 
-2. 🧩 Test Objectives
+
+2. 🧩 **Test Objectives**
 Verify all features meet the specified requirements.
 
 Ensure system performance, reliability, and security.
 
 Identify usability issues.
 
-3. 🗂️ Test Items
+3. 🗂️  **Test Items**
+
+   **Pages & Functionality**
+1.	**Home Page (/)**
+o	Waste pickup request form
+o	Form validation (with intentional flaws)
+o	Success message display
+2.	**Dashboard (/dashboard)**
+o	Table of all pickup requests
+o	Filtering by status and location
+o	Status badges and responsive design
+3.	**Feedback Page (/feedback)**
+o	Report missed pickups
+o	Feedback submission form
+o	Request ID validation
+4.	**Awareness Page (/awareness)**
+o	Educational content about waste management
+o	Images with missing alt-text (accessibility testing)
+o	Responsive grid layout
+5.	**Admin Panel (/admin)**
+o	Request management interface
+o	Status update functionality
+o	Data persistence testing
+
 List modules, features, or user stories to be tested.
-
-check functional-requirements.md
-
 
 Specify version or build information for the software under test.
 
-4. 🛠️ Test Strategy
+4. 🛠️ **Test Strategy**
+
 Testing Types: Unit, integration, system, etc.
 
-Approach: Manual vs. automated testing; black-box vs. white-box testing.
+Approach: Manual vs. automated testing 
 
 Environments: Specify test environments (dev, staging, etc.).
 
@@ -85,7 +114,7 @@ Define the team structure and individual roles (Test Lead, Testers, Developers, 
 
        Role	                          Key Responsibilities
 
-🧠  Aghwe Akpome	-                Setup the Repo, Performance testing,
+🧠  Aghwe Akpome	-                   Setup the Repo, Performance testing,
                                       verify defect, Analyse Performance Bottleneck 
                                       Validate Requirement, Communication with
                                       Stakeholders, Assist unit and integration testing
@@ -166,17 +195,17 @@ User registration and authentication flows
 Waste pickup scheduling and management	
 
 
-8. 🕵️ Entry and Exit Criteria
+8. 🕵️ **Entry and Exit Criteria**
 Entry: Completion of development, availability of environment, etc.
 
 Exit: All critical defects resolved, test cases executed with acceptable pass rate.
 
-9. 📈 Risk Management
+9. 📈 **Risk Management**
 Identify potential risks (e.g., resource shortage, unclear requirements).
 
 Plan mitigation strategies.
 
-10. 🔁 Change Management Process
+10. 🔁 **Change Management Process**
 Procedure for handling changes in requirements or scope during testing.
 
 1. 🧭 Identify and Document the Change
