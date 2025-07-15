@@ -54,3 +54,39 @@ Observe the output if it was submitted
 **Expected:** Should handle gracefully
 **Actual:**  cause layout issues
 **Risk Priority:** High
+
+
+**Automated Testing
+The project includes React Testing Library for automated testing:
+npm test
+Test Data
+The application comes with pre-filled mock data:
+•	Sample Requests: REQ001-REQ005 with various statuses
+•	Sample Feedback: FB001 for REQ004
+•	Locations: Nairobi, Kisumu, Mombasa, Eldoret
+•	Waste Types: General, Recyclable, Hazardous
+
+
+
+📱**Responsive Design**
+    The application is designed to be mobile-friendly with:
+•	Responsive navigation
+•	Mobile-optimised tables
+•	Flexible grid layouts
+•	Touch-friendly buttons
+
+
+
+**Reflection Requirements**
+•	Individual Reflection: I was exposed to testing of software and it importance in the SLDC. Although   
+    There was time contraint which affected the testing process 
+•	Team Reflection: Collaboration effectiveness was accomplish through meeting on Microsoft Team and 
+    Whatsapp
+•	Process Reflection: Testing methodology used was Manual and Automated testing
+•	Future Improvement: More time should be giving to test of the software
+**Reflection Questions**
+•	Manual techniques testing was carried out by our team
+•   Some of the Dependencies where more installed and this affected the Automated testing?, so there was 
+    Communication barrier and time difference which a meetings.
+•	Try to ensure more collaboration among the team
+•	This Project has really increase my knowledge in software and QA
